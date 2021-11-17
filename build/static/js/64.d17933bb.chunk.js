@@ -1,0 +1,2 @@
+(window["webpackJsonpcorona-react"]=window["webpackJsonpcorona-react"]||[]).push([[64],{1472:function(n,e,a){"use strict";a.r(e);var c=a(0),o=a.n(c);e.default=function(){return o.a.createElement("div",null)}}}]);
+//# sourceMappingURL=64.d17933bb.chunk.js.map

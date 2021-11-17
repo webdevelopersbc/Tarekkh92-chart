@@ -1,0 +1,275 @@
+.iconStylee {
+  position: fixed;
+  bottom: 0;
+  padding: 12px;
+  /* margin-left: 10px; */
+  /* left: 10px; */
+}
+.DN {
+  position: fixed;
+  bottom: 0;
+  padding: 0;
+}
+.d_S1{
+  display: none;
+}
+.mainWrapperBtm {
+  flex: 0 0 auto;
+  position: fixed;
+  bottom: 0;
+  padding: 8px 6px;
+  padding-right: 37px;
+  background-color: #191c24;
+  border-top: 2px solid rgba(133, 133, 133, 0.1);
+}
+.mainWrapperBtmLight {
+  flex: 0 0 auto;
+  position: fixed;
+  bottom: 0;
+  padding: 8px 6px;
+  padding-right: 37px;
+  background-color: lightgray;
+  border-top: 2px solid lightgray;
+}
+/* .mainWrapperBtm div{
+  display: none;
+} */
+.settingBtn {
+  -webkit-box-align: center;
+  align-items: center;
+  border: 0px;
+  border-radius: 16px;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 600;
+  -webkit-box-pack: center;
+  justify-content: center;
+  letter-spacing: 0.03em;
+  line-height: 1;
+  opacity: 1;
+  outline: 0px;
+  transition: background-color 0.2s ease 0s, opacity 0.2s ease 0s;
+  height: 48px;
+  padding: 0px 3px;
+  background-color: transparent;
+  color: rgb(31, 199, 212);
+  box-shadow: none;
+  position: relative;
+  left: 12px;
+}
+.SetingBtnStyle {
+  align-self: center;
+  fill: #8f5fe8;
+  flex-shrink: 0;
+}
+.IMGICON {
+  align-self: center;
+  fill: rgb(40, 13, 95);
+  flex-shrink: 0;
+  margin-right: 8px;
+}
+.VariableCol {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  height: 48px;
+  padding: 0px 16px;
+  color: inherit;
+  text-decoration: none;
+}
+.hrflink {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  text-decoration: none !important;
+}
+.priceVariable {
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.5;
+  text-decoration: none;
+}
+.priceVariableLight {
+  color: black;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.5;
+  text-decoration: none;
+}
+.socialLink {
+  display: flex;
+}
+.twtr {
+  position: relative;
+}
+.twtr svg {
+  align-self: center;
+  fill: white;
+  flex-shrink: 0;
+  margin-right: 24px;
+}
+.twtrLight {
+  position: relative;
+}
+.twtrLight svg {
+  align-self: center;
+  fill: black;
+  flex-shrink: 0;
+  margin-right: 24px;
+}
+.telegrm {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  width: fit-content;
+
+  color: rgb(31, 199, 212);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.5;
+  margin-right: 0px;
+}
+.telegrm svg {
+  align-self: center;
+  fill: white;
+  flex-shrink: 0;
+}
+.telegrmLight {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  width: fit-content;
+
+  color: rgb(31, 199, 212);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.5;
+  margin-right: 0px;
+}
+.telegrmLight svg {
+  align-self: center;
+  fill: black;
+  flex-shrink: 0;
+}
+.DLCOL {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  height: 48px;
+  padding: 0px 8px;
+}
+.btnwrapper {
+  -webkit-box-align: center;
+  align-items: center;
+  border: 0px;
+  border-radius: 16px;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 600;
+  -webkit-box-pack: center;
+  justify-content: center;
+  letter-spacing: 0.03em;
+  line-height: 1;
+  opacity: 1;
+  outline: 0px;
+  transition: background-color 0.2s ease 0s, opacity 0.2s ease 0s;
+  height: 48px;
+  padding: 0px 24px;
+  background-color: transparent;
+  color: rgb(31, 199, 212);
+  box-shadow: none;
+}
+.iconwrapper {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+}
+.iconwrapperSun {
+  align-self: center;
+  fill: white;
+  flex-shrink: 0;
+}
+.iconwrapperSunLight {
+  align-self: center;
+  fill: black;
+  flex-shrink: 0;
+}
+.line {
+  color: rgb(189, 194, 196);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  margin-left: 4px;
+  margin-right: 4px;
+}
+.iconwrapperMoon {
+  align-self: center;
+  fill: rgb(189, 194, 196);
+  flex-shrink: 0;
+}
+.iconwrapperMoonLight {
+  align-self: center;
+  fill: black;
+  flex-shrink: 0;
+}
+.worldIcon {
+  position: relative;
+}
+.btnwrapper1 {
+  -webkit-box-align: center;
+  align-items: center;
+  border: 0px;
+  border-radius: 16px;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 600;
+  -webkit-box-pack: center;
+  justify-content: center;
+  letter-spacing: 0.03em;
+  line-height: 1;
+  opacity: 1;
+  outline: 0px;
+  transition: background-color 0.2s ease 0s, opacity 0.2s ease 0s;
+  height: 48px;
+  padding: 0px 24px;
+  background-color: transparent;
+  color: rgb(31, 199, 212);
+  box-shadow: none;
+}
+.iconWorld {
+  align-self: center;
+  fill: white;
+  flex-shrink: 0;
+  margin-right: 0.5rem;
+}
+.iconWorldLight {
+  align-self: center;
+  fill: black;
+  flex-shrink: 0;
+  margin-right: 0.5rem;
+}
+.ENTEXT {
+  color: white;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+.ENTEXTLight {
+  color: black;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+@media screen and (max-width: 992px) {
+}

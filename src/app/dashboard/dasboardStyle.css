@@ -1,0 +1,212 @@
+.scrolbr::-webkit-scrollbar {
+  width: 12px;
+  background-color: #14161d;
+  border-radius: 6px;
+}
+.d_S {
+	display: none !important;
+  }
+.scrolbr::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #00ac4a;
+}
+.scrolbrwhite::-webkit-scrollbar {
+  width: 12px;
+  background-color: lightgray;
+  border-radius: 6px;
+}
+
+.scrolbrwhite::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #00ac4a;
+}
+.table-striped .tbod tr:nth-of-type(odd) {
+  background-color: #14161d !important;
+}
+.table-striped .tbod2 tr:nth-of-type(odd) {
+  background-color: lightgray !important;
+}
+.firstChild {
+  position: sticky;
+  top: 0;
+  /* background-color: #14161d; */
+}
+.inpStyle{
+  width: 40%;
+}
+.sidebar .nav .nav-item.active > .nav-linkLM {
+  background: lightgray !important;
+  position: relative;
+  /* color: black !important; */
+}
+.sidebar .nav .nav-item:hover > .nav-linkLM {
+  background: lightgray !important;
+  position: relative;
+  /* color: black !important; */
+}
+.sidebar .nav .nav-item > .nav-linkLM:hover {
+  background: lightgray !important;
+  /* color: black !important; */
+  position: relative;
+}
+.sidebar .nav .nav-item .nav-linkLM {
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+  text-decoration: none;
+  padding: 0.8rem 10px 0.8rem 1.188rem;
+  color: #6c7293;
+  transition-duration: 0.45s;
+  transition-property: color;
+  -webkit-transition-property: color;
+  height: 46px;
+  border-radius: 0px 100px 100px 0px;
+  cursor: pointer;
+}
+
+.sidebar-icon-only .sidebar .nav .nav-item.hover-open .nav-link .menu-title{
+  display: flex;
+    align-items: center;
+    background: #0f1015;
+    padding: 0.5rem 1.4rem;
+    left: 70px;
+    position: absolute;
+    text-align: left;
+    top: 0;
+    bottom: 0;
+    width: 190px;
+    z-index: 1;
+    line-height: 1.8;
+}
+.sidebar-icon-only .sidebar .nav .nav-item.hover-open .nav-linkLM .menu-title{
+  display: flex;
+    align-items: center;
+    background: lightgray;
+    color: black !important;
+    padding: 0.5rem 1.4rem;
+    left: 70px;
+    position: absolute;
+    text-align: left;
+    top: 0;
+    bottom: 0;
+    width: 190px;
+    z-index: 1;
+    line-height: 1.8;
+}
+
+
+
+
+.pad{
+  padding: 1.75rem 6px !important;
+}
+
+.fontTN{
+  font-size: 0.8vw;
+}
+
+.TansactionBTNGgroup{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.TansactionBTNGgroup button{
+  min-width: 9vw !important;
+  margin-left: 5px;
+}
+.light_mode .nav-tabs .nav-link{
+  padding: 0.3rem 1.0rem !important;
+  /* padding: 0.3rem 2.66rem !important; */
+  background: lightgray !important;
+  color: black;
+}
+.light_mode .nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-left: 0;
+  /* width: 100% !important; */
+  margin-bottom: 0;
+  list-style: none;
+}
+.dark_mode .nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-left: 0;
+  /* width: 100% !important; */
+  margin-bottom: 0;
+  list-style: none;
+}
+.dark_mode .nav-tabs .nav-link{
+  padding: 0.3rem 1.0rem !important;
+  /* padding: 0.3rem 2.66rem !important; */
+
+}
+@media screen and  (max-width: 1200px) {
+  .fontTN{
+    font-size: 1.7vw;
+  }
+}
+
+
+@media screen and (max-width: 992px) {
+  .d_S {
+    display: block !important;
+  }
+  /* .navbar-nav{
+    width: 0% !important;
+  } */
+  .inpStyle{
+    width: 100%;
+  }
+  .fontTN{
+    font-size: 1.7vw;
+  }
+}
+@media screen and (max-width: 768px) {
+  .fontTN{
+    font-size: 2vw;
+  }
+}
+@media screen and (max-width: 550px) {
+  .fontTN{
+    font-size: 3.6vw;
+  }
+  .TansactionBTNGgroup{
+    /* width: 100%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .TansactionBTNGgroup button{
+    width: 100% !important;
+    margin-bottom: 5px;
+  }
+}
+@media screen and (min-width: 441px) and (max-width: 570px) {
+  .tappause {
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+}
+@media screen and (max-width: 440px) {
+  .tappause {
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  .btnGRROUP {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5px;
+  }
+  .pausebtn {
+    margin-left: 0px !important;
+    margin-top: 10px !important;
+  }
+}
